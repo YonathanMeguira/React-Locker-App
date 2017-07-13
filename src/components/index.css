@@ -1,0 +1,31 @@
+body {
+    font-family: 14px 'Open Sans', sans-serif;
+    margin: 20px;
+}
+
+.main {
+    height: 100vh;
+}
+.code-form > input{
+    height: 40px !important;
+    width: 50px !important;
+    border-radius: 10px;
+    text-align: center;
+    color: #666;
+}
+.code-form > input:not(:last-child){
+    margin-right: 10px;
+}
+.code-form > input:focus{
+    outline: none;
+}
+#i1, #i2{
+    display: block !important;
+    margin: auto !important;
+}
+#sb{
+    height: 38px;
+}
+#sb:focus{
+    outline: none;
+}

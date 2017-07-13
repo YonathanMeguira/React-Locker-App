@@ -1,0 +1,13 @@
+<div>
+    <form data-flex data-layout="row" className="code-form mb-4" onSubmit={this.checkCode}>
+        <Button type="submit" raised color="accent" className="mr-3">Check</Button>
+        <input type="number" maxLength="1" value={this.props.state.defaultValues[0]}
+               onChange={this.handleChange.bind(this, 0)}/>
+        <input type="number" maxLength="1" value={this.props.state.defaultValues[1]}
+               onChange={this.handleChange.bind(this, 1)}/>
+        <input type="number" maxLength="1" value={this.props.state.defaultValues[2]}
+               onChange={this.handleChange.bind(this, 2)}/>
+        <input type="number" maxLength="1" value={this.props.state.defaultValues[3]}
+               onChange={this.handleChange.bind(this, 3)}/>
+    </form>
+</div>
